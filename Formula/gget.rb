@@ -21,7 +21,7 @@ class Gget < Formula
       sha256 "273518942952f24d6ce51e52f17ac37313f23ce95bd874e74ba244bc845c6f00"
     end
     on_intel do
-      url "https://github.com/naviko/gget/releases/download/v1.0.5/
+      url "https://github.com/naviko/gget/releases/download/v1.0.5/gget-linux-amd64"
       sha256 "cbf425c0c5a6f1bb78bb63862d6cd3427d88e494af2d70fd607bdc815bc9ee29"
     end
   end
@@ -31,6 +31,6 @@ class Gget < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/gget --version"
+    assert_match version.to_s, shell_output("#{bin}/gget --version")
   end
 end
