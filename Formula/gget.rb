@@ -1,28 +1,28 @@
 class Gget < Formula
   desc "Download anything, upload to FTP, call APIs. One command, no flags"
   homepage "https://github.com/naviko/gget"
-  version "1.0.4"
+  version "1.0.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/naviko/gget/releases/download/v1.0.4/gget-darwin-arm64"
-      sha256 "25b05ba51ac4f6adca880cf07740d0f87935b70669ff422df192ae6caf646f9d"
+      url "https://github.com/naviko/gget/releases/download/v1.0.5/gget-darwin-arm64"
+      sha256 "f6ae2471a798c3edc3fb4a97918463df8d73425a841303015fca2892c5b9666c"
     end
     on_intel do
-      url "https://github.com/naviko/gget/releases/download/v1.0.4/gget-darwin-amd64"
-      sha256 "fca2a0858b4c6026d0d7559424e1323eb90cc3c78cc41a396ddd72fe8d5a687f"
+      url "https://github.com/naviko/gget/releases/download/v1.0.5/gget-darwin-amd64"
+      sha256 "46599bd8c4e5c559c1a795cd7ca15626b34b308cdf5f849826be1cf1a87923ca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/naviko/gget/releases/download/v1.0.4/gget-linux-arm64"
-      sha256 "6b3d96f6f615372a17ff104772125bb32adfe9caf871f983e02408da6cfc42b1"
+      url "https://github.com/naviko/gget/releases/download/v1.0.5/gget-linux-arm64"
+      sha256 "273518942952f24d6ce51e52f17ac37313f23ce95bd874e74ba244bc845c6f00"
     end
     on_intel do
-      url "https://github.com/naviko/gget/releases/download/v1.0.4/gget-linux-amd64"
-      sha256 "f9a54db35a6f3ab0b98a0f341ea9a173b742a4861dba770b1072b5df2060482f"
+      url "https://github.com/naviko/gget/releases/download/v1.0.5/
+      sha256 "cbf425c0c5a6f1bb78bb63862d6cd3427d88e494af2d70fd607bdc815bc9ee29"
     end
   end
 
@@ -31,6 +31,6 @@ class Gget < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/gget --version")
+    assert_match version.to_s, shell_output("#{bin}/gget --version"
   end
 end
