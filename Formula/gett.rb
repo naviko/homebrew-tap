@@ -1,5 +1,5 @@
 class Gett < Formula
-  desc "Download anything, upload to FTP, call APIs."
+  desc "Download anything, upload to FTP, call APIs"
   homepage "https://github.com/naviko/gett"
   version "0.1.1"
   license "MIT"
