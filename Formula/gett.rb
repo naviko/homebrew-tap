@@ -7,22 +7,22 @@ class Gett < Formula
   on_macos do
     on_arm do
       url "https://github.com/naviko/gett/releases/download/v0.1.2/gett-darwin-arm64"
-      sha256 "acc088c98ae2cd2c5606b63aae7d5d1f6e06fdb0f60b90fe10e8b7adf624abb9"
+      sha256 "423046d30d879a095f12ee317352bfcfc3a7743d9d81ae46b4721fe69396011e"
     end
     on_intel do
       url "https://github.com/naviko/gett/releases/download/v0.1.2/gett-darwin-amd64"
-      sha256 "51c5fad010b7c4db4a972d9a11a8016d79c3d6a80929ab52114dc8b373cf7035"
+      sha256 "ad34ec715aa69f42bc620e4f4f4a759d265c2a58f57e4884ad8618749fe63120"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/naviko/gett/releases/download/v0.1.2/gett-linux-arm64"
-      sha256 "ee1d073db0b4f507ad5962ebe4df87a90287d502fa7ebf1da612cca0ca7a83be"
+      sha256 "8582d6811cd55c9ce2ce267d465d9f4142b346884ce2a2b04b845e1920850a78"
     end
     on_intel do
       url "https://github.com/naviko/gett/releases/download/v0.1.2/gett-linux-amd64"
-      sha256 "20f7d0b02422daa7814c98e05360fccd946237a4e35227e62f7327509ee7c5c8"
+      sha256 "1175c664603c42a4111c7926fbcb31ad30e049377f8428beddc51685148faaa5"
     end
   end
 
