@@ -1,28 +1,28 @@
 class Gett < Formula
   desc "Download anything, upload to FTP, call APIs"
   homepage "https://github.com/naviko/gett"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/naviko/gett/releases/download/v0.1.2/gett-darwin-arm64"
-      sha256 "423046d30d879a095f12ee317352bfcfc3a7743d9d81ae46b4721fe69396011e"
+      url "https://github.com/naviko/gett/releases/download/v0.1.3/gett-darwin-arm64"
+      sha256 "fd85869b8a24d740d30f0fc304668e3cd48eb87dfce6b93038ec55e0ff238de2"
     end
     on_intel do
-      url "https://github.com/naviko/gett/releases/download/v0.1.2/gett-darwin-amd64"
-      sha256 "ad34ec715aa69f42bc620e4f4f4a759d265c2a58f57e4884ad8618749fe63120"
+      url "https://github.com/naviko/gett/releases/download/v0.1.3/gett-darwin-amd64"
+      sha256 "42ece5622ffe8e8480a487479ffec1af65727a1b46eb4de3a1a49b8f769b273f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/naviko/gett/releases/download/v0.1.2/gett-linux-arm64"
-      sha256 "8582d6811cd55c9ce2ce267d465d9f4142b346884ce2a2b04b845e1920850a78"
+      url "https://github.com/naviko/gett/releases/download/v0.1.3/gett-linux-arm64"
+      sha256 "8c7f74931d4db59adda409c82937a7eb6f6a1fadb6570187f4b217c5578717fb"
     end
     on_intel do
-      url "https://github.com/naviko/gett/releases/download/v0.1.2/gett-linux-amd64"
-      sha256 "1175c664603c42a4111c7926fbcb31ad30e049377f8428beddc51685148faaa5"
+      url "https://github.com/naviko/gett/releases/download/v0.1.3/gett-linux-amd64"
+      sha256 "f84fc343058f8d73ae35e6fd701153587cc672c6cf2b33b07566739e87198c35"
     end
   end
 
